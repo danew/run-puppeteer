@@ -1,12 +1,11 @@
-const timeout = 5000;
-
-describe('Google', () => {
+describe.each(viewports)('Homepage on %s', (_, width, height, url) => {
   beforeAll(async () => {
-    await page.goto('https://google.com');
-  }, timeout)
+    await page.setViewport({ width, height });
+    await page.goto(url);
+  })
 
   it('should load without error', async () => {
     let text = await page.evaluate(() => document.body.textContent);
     expect(text).toContain('google');
   })
-}, timeout)
+});
