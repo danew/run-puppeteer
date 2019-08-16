@@ -1,6 +1,8 @@
+const eachPage = require('../lib/eachPage');
+
 const timeout = 5000;
 
-describe('Google', () => {
+eachPage('Google', () => {
   beforeAll(async () => {
     await page.goto('https://google.com');
   }, timeout)
@@ -9,4 +11,4 @@ describe('Google', () => {
     let text = await page.evaluate(() => document.body.textContent);
     expect(text).toContain('google');
   })
-}, timeout)
+});
