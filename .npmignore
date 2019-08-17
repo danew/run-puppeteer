@@ -1,9 +1,2 @@
 __tests__
 .prettierrc
-
-jest-puppeteer.config.js
-jest.config.js
-
-setup.js
-teardown.js
-env.js

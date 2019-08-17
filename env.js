@@ -1,3 +1,3 @@
-const env = require('./lib/PuppeteerEnvironment');
+const env = require('./lib/RunPuppeteerEnvironment');
 
-module.exports = env
+module.exports = env;

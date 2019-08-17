@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Jest Puppeteer Runner",
   "license": "MIT",
-  "scripts": {
-    "test": "jest"
-  },
   "main": "index.js",
   "devDependencies": {
     "jest": "^24.9.0",
@@ -16,7 +13,9 @@
     "puppeteer": "1.x"
   },
   "dependencies": {
+    "chalk": "^2.4.2",
     "jest-environment-node": "^24.9.0",
+    "jest-environment-puppeteer": "^4.3.0",
     "jest-util": "^24.9.0",
     "merge-deep": "^3.0.2"
   }
