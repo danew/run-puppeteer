@@ -87,7 +87,7 @@ If you are having a problem have a look at their documentation before continuing
 
 2. Install and configure `run-puppeteer`
 ```bash
-npm install --save-dev git+ssh://git@github.com:danew/run-puppeteer.git
+npm install --save-dev run-puppeteer
 ```
 Edit your `jest-puppeteer.config.js` file to add your viewports and environments
 ```js
