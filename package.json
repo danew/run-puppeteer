@@ -1,6 +1,6 @@
 {
   "name": "run-puppeteer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Jest Puppeteer Runner",
   "license": "MIT",
   "main": "index.js",
@@ -12,10 +12,6 @@
   },
   "peerDependencies": {
     "jest-environment-puppeteer": "4.x"
-  },
-  "dependencies": {
-    "jest-util": "^24.9.0",
-    "merge-deep": "^3.0.2"
   },
   "scripts": {
     "test": "jest",

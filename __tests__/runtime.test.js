@@ -2,7 +2,6 @@ describe('runtime', () => {
   it('adds viewports global', () => {
     expect(global.viewports).toEqual([
       ['[Google][Desktop]', 'desktop', 1920, 1000, 'https://google.com'],
-      ['[Google][Mobile]', 'mobile', 480, 800, 'https://google.com'],
     ]);
   });
   it('page global exists', () => {
